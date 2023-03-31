@@ -1,10 +1,10 @@
 {
-  "name": "plugin_template",
+  "name": "ma3-ts-plugin-template",
   "version": "0.1.0",
   "engines": {
     "node": ">=16.17.1"
   },
-  "description": "Plugin Template",
+  "description": "GrandMA3 TypeScript Plugin Template",
   "scripts": {
     "build": "node node_modules/.bin/ma3-ts-plugin-builder",
     "dev": "node node_modules/.bin/ma3-ts-plugin-builder dev"
@@ -17,14 +17,15 @@
     "MALighting",
     "MA3",
     "Lighting",
-    "Plugins"
+    "Plugins",
+    "MA3-Pro-Plugins"
   ],
   "author": "Some Author",
   "license": "ISC",
   "homepage": "https://github.com/ma3-pro-plugins/ma3-ts-plugin-template#readme",
   "devDependencies": {
     "@ma3-pro-plugins/ma3-ts-plugin-builder": "^1.2.1",
-    "grandma3-ts-types": "^1.0.1",
+    "grandma3-ts-types": "^1.1.1",
     "lua-types": "^2.13.0",
     "typescript": "^4.8.4",
     "typescript-to-lua": "^1.10.1"

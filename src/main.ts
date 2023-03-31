@@ -1,5 +1,5 @@
 
-function main(this: void, displayHandle: any, argument: string) {
+function main(this: void, displayHandle: Display, argument: string) {
     Echo('Hello Plugin Template')
 }
 
