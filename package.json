@@ -24,7 +24,7 @@
   "license": "ISC",
   "homepage": "https://github.com/ma3-pro-plugins/ma3-ts-plugin-template#readme",
   "devDependencies": {
-    "@ma3-pro-plugins/ma3-ts-plugin-builder": "^1.2.1",
+    "@ma3-pro-plugins/ma3-ts-plugin-builder": "^1.2.2",
     "grandma3-ts-types": "^1.1.1",
     "lua-types": "^2.13.0",
     "typescript": "^4.8.4",
