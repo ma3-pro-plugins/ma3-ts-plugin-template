@@ -1,6 +1,5 @@
 {
-    "$schema": "./build_script/maconfigScheme.json",
-    "maInstallPath": "/Users/erez/MALightingTechnology/",
+    "$schema": "node_modules/@ma3-pro-plugins/ma3-ts-plugin-builder/scheme/maconfigScheme.json",
     "maVersion": "1.8.8",
     "author": "Some Author",
     "organizationId": "author_id",
