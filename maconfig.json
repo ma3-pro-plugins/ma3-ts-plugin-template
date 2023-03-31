@@ -1,0 +1,17 @@
+{
+    "$schema": "./build_script/maconfigScheme.json",
+    "maInstallPath": "/Users/erez/MALightingTechnology/",
+    "maVersion": "1.8.8",
+    "author": "Some Author",
+    "organizationId": "author_id",
+    "pluginId": "build_plugin_example",
+    "pluginVersion": "0.1.0",
+    "maPluginName": "Build Plugin Example",
+    "components": [
+        {
+            "type": "ts",
+            "fileName": "main.ts"
+        }
+    ],
+    "devMATargetVersion": "1.8"
+}

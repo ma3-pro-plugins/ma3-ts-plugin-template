@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig_base",
+  "include": ["./node_modules/@ma3-pro-plugins/grandma3-types/index.d.ts", "lib/**/*", "src/**/*"],
+  "tstl": {
+    "luaTarget": "5.3",
+    "luaBundleEntry": "./src/main.ts",
+    "luaBundle": "/Users/erez/dist/Some Author - Plugin Template - v0.1.0/grandMA3/gma3_library/datapools/plugins/Some Author/Plugin Template - v0.1.0/MA3 1.6/main.lua",
+    "luaPlugins": [
+      { "name": "./tstl/grandMA3-tstl-plugin.js" }
+    ],
+    "sourceMapTraceback": true,
+    "noResolvePaths": ["json", "lfs"]
+  }
+}
+    
