@@ -1,5 +1,5 @@
 {
-  "name": "ma3-ts-plugin-template",
+  "name": "@ma3-pro-plugins/ma3-ts-plugin-template",
   "version": "0.1.0",
   "engines": {
     "node": ">=16.17.1"
