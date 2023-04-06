@@ -35,3 +35,14 @@ This file contains configuration which is for the build itself, and are unrelate
 A `tsconfig.json` and `tsconfig_dev.json` are generated every time your run `npm run build` or `npm run dev` respectively.
 
 They both extend the `tsconfig_base.json`
+
+## Built-In images
+
+The plugin builder looks for a folder called `images` under the `src` folder. 
+If it find one, it generates a `__imagesB64` folder which includes:
+- A `__[image_name].ts` file for each image, which exports the `fileName` and `imageBase64` string
+- An `index.ts` file which exports:
+  - `ImageKey` type: a string literal type with all possible image names
+  - `images` object: a map of image-key to image-data
+
+> You need to initially run `npm run build` at least once, so the example code would compile in VS code.

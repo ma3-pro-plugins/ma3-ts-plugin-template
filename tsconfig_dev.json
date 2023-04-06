@@ -4,7 +4,7 @@
   "tstl": {
     "luaTarget": "5.3",
     "luaBundleEntry": "./src/main.ts",
-    "luaBundle": "gma3_library/datapools/plugins/Some Author DEV/Build Plugin Example/MA3 1.8/main.lua",
+    "luaBundle": "/Users/erez/MALightingTechnology/gma3_library/datapools/plugins/Some Author DEV/Build Plugin Example/MA3 1.8/main.lua",
     "luaPlugins": [
       { "name": "./tstl/grandMA3-tstl-plugin.js" }
     ],

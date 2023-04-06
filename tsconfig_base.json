@@ -10,6 +10,11 @@
       "grandma3-ts-types"
     ],
     "strict": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@pplib": [
+        "node_modules/@ma3-pro-plugins/lib/dist/*"
+      ]
+    }
   }
 }
