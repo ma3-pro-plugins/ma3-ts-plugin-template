@@ -5,6 +5,9 @@
     "node": ">=16.20.0"
   },
   "description": "GrandMA3 TypeScript Plugin Template",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npx @ma3-pro-plugins/ma3-ts-plugin-builder",
     "dev": "npx @ma3-pro-plugins/ma3-ts-plugin-builder dev"
