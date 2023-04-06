@@ -1,13 +1,15 @@
-# MA3 TS PLUGIN TEMPLATE
+# MA3 TypeScript Plugin Starter Template
 
-This package is an example template for building a TypeScript grandMA3 plugin.
+This package is an example of how to use the `ma3-ts-plugin-builder` for building a TypeScript grandMA3 plugin.
+It can be used as a starter template.
 
 ## Dependencies
 
-- Uses node `>=16.17.1`
+- Uses node `>=16.20.0`
 
-- [ma3-pro-plugins/ma3-ts-plugin-builder](https://github.com/ma3-pro-plugins/ma3-ts-plugin-builder): A opinionated build script, written in TypeScript.
+- [ma3-pro-plugins/ma3-ts-plugin-builder](https://github.com/ma3-pro-plugins/ma3-ts-plugin-builder): An opinionated build script, written in TypeScript.
 - [ma3-pro-plugins/grandma3-ts-type](https://github.com/ma3-pro-plugins/grandma3-ts-types): TypeScript types for grandMA3 Object-API and Object-Free-API
+- [@ma3-pro-plugins/ma3-pro-plugins-lib](https://github.com/ma3-pro-plugins/ma3-pro-plugins-lib): A library of utils. Some are generic and some are MA3 specific.
 
 ## Configuration
 
