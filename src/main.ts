@@ -1,4 +1,4 @@
-import { Logger, LogLevel } from "@ma3-pro-plugins/lib/dist/Logger"
+import { Logger, LogLevel } from "@ma3-pro-plugins/ma3-pro-plugins-lib"
 import { ImageLibraryInstaller } from "./ImageLibraryInstaller"
 
 function main(this: void, displayHandle: Display, argument: string) {
