@@ -21,7 +21,7 @@ This file contains configuration which are relevant to the MA3 installation of t
 
 This file contains configuration which is for the build itself, and are unrelated shipped plugin.
 
-## Scripts
+## Dev Workflow
 
 > NOTE: You need to run once `npm install` before running any of these scripts
 
@@ -29,10 +29,20 @@ This file contains configuration which is for the build itself, and are unrelate
   - Generates a `tsconfig_dev.json`
   - Builds the plugin in watch mode.
   - Installs the transpile LUA code to your local `MALightingTechnology` plugins folder.
+
+### Reloading the plugin in MA3
+
+After you run `npm run dev` or after changing any file, you need to reload the plugins in MA3. You can do that with one of these commands:
+
+- `ReloadAllPlugins` - Reloads all plugins. Resets LUA global scope.
+- `ReloadUI` - Does the same as `ReloadAllPlugins`, but also resets the UI. (This is useful if you have some weird leftover UI dialogs stuff, and you want to clean it up)
+
+## Production Build
+
 - `npm run build`: For production
   - Generates a `tsconfig.json`
   - Builds the plugin into a `dist` folder.
-  - Create a Zip file ready for shipping.
+  - Creates a Zip file ready for shipping.
 
 ## tsconfig.json
 
