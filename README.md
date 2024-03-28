@@ -23,12 +23,14 @@ This file contains configuration which is for the build itself, and are unrelate
 
 ## Scripts
 
+> NOTE: You need to run once `npm install` before running any of these scripts
+
 - `npm run dev`: For development
-  - Generates a `tsconfig_dev.json` 
+  - Generates a `tsconfig_dev.json`
   - Builds the plugin in watch mode.
   - Installs the transpile LUA code to your local `MALightingTechnology` plugins folder.
 - `npm run build`: For production
-  - Generates a `tsconfig.json` 
+  - Generates a `tsconfig.json`
   - Builds the plugin into a `dist` folder.
   - Create a Zip file ready for shipping.
 
@@ -40,8 +42,9 @@ They both extend the `tsconfig_base.json`
 
 ## Built-In images
 
-The plugin builder looks for a folder called `images` under the `src` folder. 
+The plugin builder looks for a folder called `images` under the `src` folder.
 If it find one, it generates a `__imagesB64` folder which includes:
+
 - A `__[image_name].ts` file for each image, which exports the `fileName` and `imageBase64` string
 - An `index.ts` file which exports:
   - `ImageKey` type: a string literal type with all possible image names
